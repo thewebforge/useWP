@@ -1,8 +1,8 @@
 {
   "name": "@thewebforge/usewordpress",
   "version": "0.1.1",
-  "description": "A collection of WordPress React hooks \u2013\u00a0from The Web Forge",
-  "author": "C\u00e9dric Bontems",
+  "description": "A collection of WordPress React hooks – from The Web Forge",
+  "author": "Cédric Bontems",
   "license": "MIT",
   "type": "module",
   "module": "index.ts",
@@ -19,9 +19,15 @@
     "url": "https://github.com/thewebforge/usewordpress/issues"
   },
   "homepage": "https://github.com/thewebforge/usewordpress#readme",
+  "types": "./dist/index.d.ts",
   "exports": {
-    "default": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
   },
+  "files": [
+    "./dist/**/*"
+  ],
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react": "latest",
