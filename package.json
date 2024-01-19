@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/thewebforge/usewordpress#readme",
   "exports": {
-    "default": "./index.ts"
+    "default": "./dist/index.js"
   },
   "devDependencies": {
     "@types/bun": "latest",
