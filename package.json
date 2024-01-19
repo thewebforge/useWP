@@ -1,8 +1,8 @@
 {
   "name": "@thewebforge/usewordpress",
-  "version": "0.1.4",
-  "description": "A collection of WordPress React hooks – from The Web Forge",
-  "author": "Cédric Bontems",
+  "version": "0.2.0",
+  "description": "A collection of WordPress React hooks \u2013\u00a0from The Web Forge",
+  "author": "C\u00e9dric Bontems",
   "license": "MIT",
   "type": "module",
   "module": "index.ts",

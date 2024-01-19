@@ -1,3 +1,9 @@
+## v0.2.0 (2024-01-19)
+
+### Feat
+
+- **hooks**: add useLocalStorage hook
+
 ## v0.1.4 (2024-01-19)
 
 ### Fix
