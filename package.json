@@ -1,14 +1,14 @@
 {
   "name": "@thewebforge/usewordpress",
   "version": "0.1.4",
-  "description": "A collection of WordPress React hooks \u2013\u00a0from The Web Forge",
-  "author": "C\u00e9dric Bontems",
+  "description": "A collection of WordPress React hooks – from The Web Forge",
+  "author": "Cédric Bontems",
   "license": "MIT",
   "type": "module",
   "module": "index.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thewebforge/usewordpress"
+    "url": "git+https://github.com/thewebforge/usewordpress.git"
   },
   "keywords": [
     "hooks",
@@ -32,8 +32,8 @@
     "build": "rm -rf dist && tsc",
     "bump": "cz bump",
     "dev": "rm -rf dist && tsc --watch",
-    "publish": "npm publish --access=public",
-    "release": "bun run build && bun run bump && bun run publish"
+    "npmpublish": "npm publish --access=public",
+    "release": "bun run build && bun run bump && bun run npmpublish"
   },
   "devDependencies": {
     "@types/bun": "latest",
