@@ -1,3 +1,9 @@
+## v0.1.4 (2024-01-19)
+
+### Fix
+
+- **package**: add build and release scripts
+
 ## v0.1.3 (2024-01-19)
 
 ### Fix
