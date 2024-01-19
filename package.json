@@ -28,6 +28,13 @@
   "files": [
     "./dist/**/*"
   ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "bump": "cz bump",
+    "dev": "rm -rf dist && tsc --watch",
+    "publish": "npm publish --access=public",
+    "release": "bun run build && bun run bump && bun run publish"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react": "latest",
