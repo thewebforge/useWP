@@ -3,7 +3,7 @@
   "compilerOptions": {
     "lib": ["ESNext", "DOM"],
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "nodenext",
     "moduleDetection": "force",
     "jsx": "react-jsx",
     "jsxImportSource": "react",
@@ -11,7 +11,7 @@
     "outDir": "dist",
 
     /* Bundler mode */
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "verbatimModuleSyntax": true,
     "declaration": true,
 
