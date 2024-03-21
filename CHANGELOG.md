@@ -1,3 +1,9 @@
+## v0.3.0 (2024-03-21)
+
+### Feat
+
+- new hooks added to the collection
+
 ## v0.2.0 (2024-01-19)
 
 ### Feat
