@@ -1,7 +1,7 @@
 // WordPress Dependencies
 import { useEffect, useState } from "@wordpress/element";
 
-// Define ourt own types as the Battery API is not yet defined in TypeScript
+// Define our own types as the Battery API is not yet defined in TypeScript
 // https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
 interface BatteryManager extends EventTarget {
   charging: boolean;
