@@ -1,3 +1,9 @@
+## v0.4.0 (2024-04-03)
+
+### Feat
+
+- **hooks**: add media query hook and dark mode
+
 ## v0.3.0 (2024-03-21)
 
 ### Feat
