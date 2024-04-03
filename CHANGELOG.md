@@ -1,3 +1,9 @@
+## v0.4.1 (2024-04-03)
+
+### Fix
+
+- **darkmode**: apply to root element and optional iframe
+
 ## v0.4.0 (2024-04-03)
 
 ### Feat
