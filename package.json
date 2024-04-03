@@ -39,7 +39,7 @@
     "@types/bun": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "@wordpress/element": "^5.26.0"
+    "@wordpress/element": "^5.32.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0",
