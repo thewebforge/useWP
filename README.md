@@ -10,6 +10,12 @@ This package is a collection of usefil React hooks created especially to be used
 
 - <strong>[Why useWordPress](#why-usewordpress)</strong>
 - <strong>[Installation](#installation)</strong>
+- <strong>[Usage](#usage)</strong>
+- <strong>[Available Hooks](#available-hooks)</strong>
+- <strong>[Contributing](#contributing)</strong>
+- <strong>[License](#license)</strong>
+- <strong>[Acknowledgements](#acknowledgements)</strong>
+- <strong>[Support](#support)</strong>
 
 Certainly! Below is a template for the README file for your npm package "useWordPress":
 
