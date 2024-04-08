@@ -6,7 +6,7 @@
 
 ___
 
-This package is a collection of usefil React hooks created especially to be used in your WordPress Theme or Plugin development.
+This package is a collection of useful React hooks created especially to be used in your WordPress Theme or Plugin development project.
 
 - <strong>[Why useWP](#why-useWP)</strong>
 - <strong>[Installation](#installation)</strong>
