@@ -1,6 +1,6 @@
 {
   "name": "@thewebforge/usewp",
-  "version": "0.4.1",
+  "version": "1.0.0",
   "description": "A collection of useful React hooks created especially to be used in your WordPress Theme or Plugin development project.",
   "author": "C\u00e9dric Bontems",
   "license": "MIT",

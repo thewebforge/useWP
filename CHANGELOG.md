@@ -1,3 +1,13 @@
+## v1.0.0 (2024-04-08)
+
+### BREAKING CHANGE
+
+- package name @thewebforge@usewordpress is deprecated as it doesn't comply with WordPress Trademark Policy and is renamed to @thewebforge/usewp as stated in policy: “The abbreviation “WP” is not covered by the WordPress trademarks and you are free to use it in any way you see fit.”
+
+### Fix
+
+- **package**: rename package to comply with WordPress trademark policy
+
 ## v0.4.1 (2024-04-03)
 
 ### Fix
