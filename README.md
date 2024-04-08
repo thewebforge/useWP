@@ -2,7 +2,7 @@
 
 [![Npm Package](https://img.shields.io/npm/v/@thewebforge/usewp.svg)](href="https://www.npmjs.com/package/@thewebforge/usewp)
 [![Npm Downloads](https://img.shields.io/npm/dm/@thewebforge/usewp.svg)](href="https://www.npmjs.com/package/@thewebforge/usewp)
-[![Npm Package](https://img.shields.io/badge/docs-📚-blue.svg)](href="https://usewp.thewebforge.dev)
+[![Npm Package](https://img.shields.io/badge/docs-📚-white.svg)](href="https://usewp.thewebforge.dev)
 
 ___
 
