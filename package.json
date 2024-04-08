@@ -1,5 +1,5 @@
 {
-  "name": "@thewebforge/usewordpress",
+  "name": "@thewebforge/usewp",
   "version": "0.4.1",
   "description": "A collection of WordPress React hooks \u2013\u00a0from The Web Forge",
   "author": "C\u00e9dric Bontems",
@@ -8,7 +8,7 @@
   "module": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thewebforge/usewordpress.git"
+    "url": "git+https://github.com/thewebforge/.git"
   },
   "keywords": [
     "hooks",
@@ -16,9 +16,9 @@
     "wordpress"
   ],
   "bugs": {
-    "url": "https://github.com/thewebforge/usewordpress/issues"
+    "url": "https://github.com/thewebforge/usewp/issues"
   },
-  "homepage": "https://github.com/thewebforge/usewordpress#readme",
+  "homepage": "https://github.com/thewebforge/usewp#readme",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",

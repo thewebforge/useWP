@@ -1,14 +1,14 @@
-# @thewebforge/usewordpress
+# @thewebforge/usewp
 
-[![Npm Package](https://img.shields.io/npm/v/@thewebforge/usewordpress.svg)](href="https://www.npmjs.com/package/@thewebforge/usewordpress)
-[![Npm Downloads](https://img.shields.io/npm/dm/@thewebforge/usewordpress.svg)](href="https://www.npmjs.com/package/@thewebforge/usewordpress)
-[![Npm Package](https://img.shields.io/badge/docs-📚-blue.svg)](href="https://usewordpress.thewebforge.dev)
+[![Npm Package](https://img.shields.io/npm/v/@thewebforge/usewp.svg)](href="https://www.npmjs.com/package/@thewebforge/usewp)
+[![Npm Downloads](https://img.shields.io/npm/dm/@thewebforge/usewp.svg)](href="https://www.npmjs.com/package/@thewebforge/usewp)
+[![Npm Package](https://img.shields.io/badge/docs-📚-blue.svg)](href="https://usewp.thewebforge.dev)
 
 ___
 
 This package is a collection of usefil React hooks created especially to be used in your WordPress Theme or Plugin development.
 
-- <strong>[Why useWordPress](#why-usewordpress)</strong>
+- <strong>[Why useWP](#why-useWP)</strong>
 - <strong>[Installation](#installation)</strong>
 - <strong>[Usage](#usage)</strong>
 - <strong>[Available Hooks](#available-hooks)</strong>
@@ -17,32 +17,28 @@ This package is a collection of usefil React hooks created especially to be used
 - <strong>[Acknowledgements](#acknowledgements)</strong>
 - <strong>[Support](#support)</strong>
 
-Certainly! Below is a template for the README file for your npm package "useWordPress":
+## Why useWP
 
----
-
-## Why useWordPress
-
-`useWordPress` is a collection of React Hooks designed specifically for WordPress Themes and Plugins developers. These hooks leverage the functionalities provided by the `@wordpress/elements` package, thereby utilizing WordPress React and avoiding the need to add another copy of React as a dependency.
+`useWP` is a collection of React Hooks designed specifically for WordPress Themes and Plugins developers. These hooks leverage the functionalities provided by the `@wordpress/elements` package, thereby utilizing WordPress React and avoiding the need to add another copy of React as a dependency.
 
 ## Installation
 
-To install `useWordPress`, simply use npm or yarn:
+To install `useWP`, simply use npm or yarn:
 
 ```bash
-npm install usewordpress
+npm install @thewebforge/usewp
 ```
 
 or
 
 ```bash
-yarn add usewordpress
+bun add @thewebforge/usewp
 ```
 
 ## Usage
 
 ```jsx
-import { useConfirm } from "@thewebforge/usewordpress";
+import { useConfirm } from "@thewebforge/usewp";
 import { check, trash } from "@wordpress/icons";
 import { Button } from "@wordpress/components";
 
@@ -94,7 +90,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - This package relies on the `@wordpress/elements` package for WordPress React functionalities.
-- Special thanks to the WordPress community for their contributions and support.
+- Special thanks to the WordPress community for their work.
 
 ## Support
 
