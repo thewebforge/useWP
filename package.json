@@ -2,13 +2,13 @@
   "name": "@thewebforge/usewp",
   "version": "1.0.0",
   "description": "A collection of useful React hooks created especially to be used in your WordPress Theme or Plugin development project.",
-  "author": "C\u00e9dric Bontems",
+  "author": "Cédric Bontems",
   "license": "MIT",
   "type": "module",
   "module": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thewebforge/.git"
+    "url": "git+https://github.com/thewebforge/usewp.git"
   },
   "keywords": [
     "hooks",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/thewebforge/usewp/issues"
   },
-  "homepage": "https://github.com/thewebforge/usewp#readme",
+  "homepage": "https://usewp.thewebforge.dev",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
