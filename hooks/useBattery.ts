@@ -1,6 +1,9 @@
 // WordPress Dependencies
 import { useEffect, useState } from "@wordpress/element";
 
+// This hook is based on the Battery API, which is not yet widely supported
+// https://w3c.github.io/battery/#examples
+
 // Define our own types as the Battery API is not yet defined in TypeScript
 // https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
 interface BatteryManager extends EventTarget {
@@ -18,18 +21,20 @@ interface NavigatorWithBattery extends Navigator {
   getBattery: () => Promise<BatteryManager>;
 }
 
+type UnsupportedBatteryHookState = {
+  supported: false;
+};
+type SupportedBatteryHookState = {
+  supported: true;
+  loading: boolean;
+  level: number | null;
+  charging: boolean | null;
+  chargingTime: number | null;
+  dischargingTime: number | null;
+};
 type BatteryHookState =
-  | {
-      supported: false;
-    }
-  | {
-      supported: true;
-      loading: boolean;
-      level: number | null;
-      charging: boolean | null;
-      chargingTime: number | null;
-      dischargingTime: number | null;
-    };
+  | SupportedBatteryHookState
+  | UnsupportedBatteryHookState;
 
 const useBattery = () => {
   const [state, setState] = useState<BatteryHookState>({
